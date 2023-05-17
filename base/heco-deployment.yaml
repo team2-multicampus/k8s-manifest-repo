@@ -1,0 +1,22 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: heco-app
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: heco-app
+  template:
+    metadata:
+      labels:
+        app: heco-app
+    spec:
+      containers:
+        - name: heco-app
+          image: 940168446867.dkr.ecr.ap-southeast-2.amazonaws.com/heco-app:dc782ff7
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8000
