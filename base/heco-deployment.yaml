@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: heco-app
-          image: 940168446867.dkr.ecr.ap-southeast-2.amazonaws.com/heco-app:dc782ff7
+          image: 940168446867.dkr.ecr.ap-southeast-2.amazonaws.com/heco-app:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8000
