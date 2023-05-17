@@ -6,6 +6,6 @@ images:
   newTag: abcdefg
 resources:
 - ../../base
-patchesStrategicMerge:
+patches:
 - heco-deployment-patch.yaml
 - heco-service-patch.yaml
