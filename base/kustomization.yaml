@@ -3,3 +3,4 @@ kind: Kustomization
 resources:
   - heco-deployment.yaml
   - heco-service.yaml
+  - heco-ingress.yaml
