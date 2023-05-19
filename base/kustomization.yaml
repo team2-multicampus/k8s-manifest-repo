@@ -5,3 +5,4 @@ resources:
   - heco-service.yaml
   - heco-ingress.yaml
   - heco-hpa.yaml
+  - cluster-autoscaler-autodiscover.yaml
