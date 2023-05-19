@@ -4,3 +4,4 @@ resources:
   - heco-deployment.yaml
   - heco-service.yaml
   - heco-ingress.yaml
+  - heco-hpa.yaml
