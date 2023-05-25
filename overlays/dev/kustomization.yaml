@@ -3,7 +3,7 @@ kind: Kustomization
 images:
 - name: 940168446867.dkr.ecr.ap-southeast-2.amazonaws.com/heco-app
   newName: 940168446867.dkr.ecr.ap-southeast-2.amazonaws.com/heco-app
-  newTag: b72b0f25
+  newTag: c62b4618
 resources:
 - ../../base
 patchesStrategicMerge:
